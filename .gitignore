@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# VM files
+# =========================
+*.vmdk
+*.vmem
+*.vmss
+*.nvram
+*.vdi
+*.vbox
+*.vbox-prev
+*.qcow2
+*.ova
+*.ovf
+
+# =========================
+# Docker
+# =========================
+docker-data/
+*.tar
+
+# =========================
+# Temporary / Benchmark files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python test/cache files
+# =========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
