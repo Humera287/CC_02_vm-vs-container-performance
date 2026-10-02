@@ -388,23 +388,41 @@ Additional screenshots and outputs remain available in the project folders.
 ```
 vm-vs-container-performance/
 │
-├── README.md
-├── .gitignore
-├── docs/
-├── vm/
-├── docker/
 ├── api/
-├── workloads/
-├── scripts/
+│   ├── Dockerfile
+│   ├── app.py
+│   └── requirements.txt
+│
+├── doc/
+│   ├── Experiment_Notes.md
+│   └── VM_Setup.md
+│
+├── docker/
+│   └── Dockerfile
 │
 ├── results/
-│   ├── raw/
-│   ├── processed/
 │   ├── figures/
+│   │   └── graphs
 │   └── screenshots/
+│       └── screenshots
 │
-└── analysis/
-    └── analysis.ipynb
+├── scripts/
+│   ├── run_cpu.sh
+│   ├── run_memory.sh
+│   ├── run_disk.sh
+│   └── run_network.sh
+│
+├── vm/
+│   ├── benchmark.sh
+│   └── setup.sh
+│
+├── workloads/
+│
+├── analysis/
+│   └── analysis.ipynb
+│
+├── README.md
+└── .gitignore
 ```
 
 The project separates VM setup, Docker setup, application code, benchmark results, screenshots, graphs, and analysis.
